@@ -1,0 +1,85 @@
+.main {
+  max-width: 1100px;
+  padding-left: 30px;
+  padding-right: 30px;
+
+  margin-top: 140px;
+  margin-bottom: 100px;
+
+  /* margin-left: auto;
+     margin-right auto;
+     Is a trick for centering an element horizontally
+     without needing a container. */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 1000px) {
+  .main {
+    max-width: 500px;
+  }
+}
+
+.amazon-logo {
+  width: 100px;
+  margin-top: 12px;
+}
+
+.amazon-mobile-logo {
+  display: none;
+}
+
+form {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 1px solid rgb(197, 196, 196);
+    width: 450px;
+    height: auto;
+    padding: 20px;
+}
+
+.signUp-header {
+    font-family: arial;
+    font-size: 25px;
+    font-weight: 20px;
+    float: left;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.form-label {
+    font-family: arial;
+    font-weight: bold;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    float: left;
+    width: 100%;
+    height: 25px;
+    border: 1px solid grey;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
+
+.form-input1 {
+    float: left;
+    width: 100%;
+    height: 25px;
+    margin-bottom: 20px;
+}
+
+.form-input2 {
+    margin-bottom: 20px;
+}
+
+.signUp-button {
+    float: left;
+    width: 100%;
+    height: 30px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: orange;
+}
